@@ -41,7 +41,7 @@ body {
 }
 
 .prof {
-    background: #dddcdc;
+    background: #282f3a;
     font-family: "Candara", sans-serif;
     position: absolute;
     top: 23%;
@@ -95,12 +95,12 @@ nav[class="navigator"] ul li a {
     text-decoration: none;
 }
 
-.navButton {
-    border: none;
-    background: none;
-    color: #ffff;
+#navButton {
+    /* border: none;
+    background: none; */
+    color: rgba(14, 165, 224);
     font-size: 14px;
-    text-transform: uppercase;
+    margin-left: 55%;
 }
 
 .navButton button:hover {

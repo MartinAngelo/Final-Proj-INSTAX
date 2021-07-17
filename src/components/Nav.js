@@ -1,5 +1,5 @@
 import React from 'react'
-import firebase from "../utils/firebase";
+// import firebase from "../utils/firebase";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 
@@ -11,13 +11,13 @@ import { AccountCircle as AccountCircleIcon } from "@material-ui/icons";
 
 export default function Nav() {
 
-    const logout = () => {
-        firebase.auth().signOut().then(() => {
-            // Sign-out successful.
-          }).catch((error) => {
-            // An error happened.
-          });
-    }
+    // const logout = () => {
+    //     firebase.auth().signOut().then(() => {
+    //         // Sign-out successful.
+    //       }).catch((error) => {
+    //         // An error happened.
+    //       });
+    // }
 
     return ( 
         <nav class = "navigator">
@@ -31,7 +31,7 @@ export default function Nav() {
                     <li class = "explore"> < Link to = "/explore" > <ExploreIcon /> </Link>{" "}</li>
                     <li class = "favorite"> < Link to = "/favorite" > <FavoriteIcon /> </Link>{" "}</li>
                     <li class = "profile"> < Link to = "/profile" > <AccountCircleIcon /> </Link>{" "}</li>
-                    <li class = "button"> <button class = "navButton" onClick={logout}Logout>logout</button></li>
+                    {/* <li class = "button"> <button class = "navButton" onClick={logout}Logout>logout</button></li> */}
                 </ul> 
             
         </nav> 

@@ -53,6 +53,14 @@ export default function Profile() {
     }
   }, [])
 
+  const logout = () => {
+    firebase.auth().signOut().then(() => {
+        // Sign-out successful.
+      }).catch((error) => {
+        // An error happened.
+      });
+}
+
   return (
     <React.Fragment>
         <Nav />
@@ -72,6 +80,7 @@ export default function Profile() {
               <SettingsIcon />
               </IconButton>
               </h3>
+              <button id="navButton" onClick={logout}Logout>logout</button>
               </div>
             {/* </Grid> */}
         </div>
