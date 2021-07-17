@@ -1,0 +1,315 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    color: rgba(14, 165, 224);
+}
+
+body {
+    background: #20252c;
+    /* background: #fafafa; */
+}
+
+.name {
+    font-family: Oleo Script, cursive;
+    color: rgba(14, 165, 224);
+    font-size: 25px;
+    line-height: 60px;
+    margin-left: 280px;
+}
+
+.search {
+    position: absolute;
+    margin-left: 270px;
+    top: 15px;
+    width: 220px;
+    height: 23px;
+    border-radius: 3px;
+}
+
+.logo {
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 200px;
+    line-height: 155px;
+    width: 4%;
+    height: 6%;
+    background: url("./images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+}
+
+.prof {
+    background: #dddcdc;
+    font-family: "Candara", sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 815px;
+    height: 210px;
+    padding: 0 45px 30px 45px;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+
+.post {
+    background: none;
+    font-family: "Candara", sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 815px;
+    height: 3px;
+    padding: 0 45px 30px 45px;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+
+/* Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator Navigator */
+nav {
+    background: rgba(19, 27, 33);
+    height: 55px;
+    width: 100%;
+}
+
+nav[class="navigator"] ul {
+    float: right;
+    margin-right: 230px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 65px;
+    margin: 0 -5px;
+}
+
+nav[class="navigator"] ul li a {
+    color: #ffffff;
+    font-size: 17px;
+    padding: 50px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navButton {
+    border: none;
+    background: none;
+    color: #ffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navButton button:hover {
+    background: #063e92;
+}
+
+/* SIGN UP SIGN UP SIGN UP SIGN UP SIGN UPSIGN UPSIGN UPSIGN UP SIGN UPSIGN UP SIGN UP SIGN UP SIGN UP SIGN UP SIGN UP SIGN UP SIGN UP SIGN UP */
+#signup-container{
+    position: relative;
+    width: 350px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 0 20px 0;
+    border: 1px solid rgba(14, 165, 224);;
+    /* background: #dbdbdb; */
+    margin-top: 40px;
+}
+h1{
+    font-family: Oleo Script, cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(14, 165, 224);
+}
+.text-top{
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    color: 	#A9A9A9;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    word-spacing: 0px;
+    line-height: 20px;
+    text-decoration: none solid rgb(38, 38, 38);
+    margin-top: -10px;
+}
+#bottom-container{
+    width: 350px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    border: 1px solid rgba(14, 165, 224);;
+    /* background: #dbdbdb; */
+    margin-top: 10px;
+}
+.mTxtbox{
+    background-color: #fafafa;
+    color: #262626;
+    height: 20px;
+    width: 250px;
+    padding: 9px 0 7px 8px;
+    min-height: auto;
+    min-width: auto;
+    outline: none;
+    display: block;
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none solid rgb(38, 38, 38);
+    word-spacing: 0px;
+    border: 1px solid #dbdbdb;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
+
+}
+#btnReg{
+    /* background-color: #0095F6; */
+    background-color: rgba(14, 165, 224);
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    height: 30px;
+    width: 260px;
+    border: none;
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    margin: 8px 40px 8px 45px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+#btnReg:hover {
+    background-color: rgb(14, 115, 155);
+}
+
+#mBtnSign {
+    background: none;
+    border: none;
+}
+
+.text-bot{
+    text-align: center;
+    text-decoration: none solid rgb(142, 142, 142);
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    font-size: 12px;
+}
+a{
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+.bottom-text{
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN INSIGN INSIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN SIGN IN  */
+#login-container{
+    position: relative;
+    width: 350px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 0 20px 0;
+    border: 1px solid rgba(14, 165, 224);
+    margin-top: 40px;
+}
+
+#bottom-container2{
+    width: 350px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    border: 1px solid rgba(14, 165, 224);
+    margin-top: 10px;
+}
+
+#mBtnLog {
+    background: none;
+    border: none;
+}
+.forgot{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Roboto, Helevtica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+.up input{
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.up{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(14, 165, 224);
+  border-radius: 50%;
+  margin: -10px auto;
+  line-height: 30px;
+  /* color: var(--primary); */
+  font-weight: bold;
+  font-size: 24px;
+}
+.up:hover{
+  background: rgb(193, 230, 245);
+  color: white;
+}
+.output{
+  height: 60px;
+  font-size: 0.8rem;
+}
+.error{
+  color: var(--error);
+}
+
+/* NOTIFICATION NOTIFICATION NOTIFICATION NOTIFICATION NOTIFICATION NOTIFICATION NOTIFICATION NOTIFICATION  */
+#noNotif {
+  margin-top: 5%;
+}
+
+#no {
+  color: rgb(142, 142, 142);
+}
+
+#gifNotif {
+  margin-left: 47%;
+}
+
+/* MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE MESSAGE */
+#noMess {
+  margin-top: 5%;
+}
+
+#iconMess {
+  margin-left: 46%;
+}
+
+/* PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE PROFILE */
+#profIcon{
+  height: 90%;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+
+#welcome {
+  margin-left: 30%;
+  margin-top: -20%;
+}
